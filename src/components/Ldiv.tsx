@@ -4,19 +4,25 @@ import { LdivCard } from "./LdivCard";
 export function Ldiv() {
   return (
     <div
-      className="text-white   font-poppins auto-rows-fr xl:h-[500px]"
+      className="text-white   font-poppins auto-rows-fr xl:h-[500px] "
       // style={{ height: "500px" }}
     >
-      <div className="flex justify-center mt-16">
-        <div className="bg-gradient-to-br from-rose-900 to-rose-950 h-36 w-1/2 rounded-3xl pt-3">
-          <img className="lg:h-36" src={memoji} alt="" />
+      <div className=" flex  justify-start  lg:block">
+        <div className="lg:flex lg:justify-center lg:mt-16 p-4 lg:p-0">
+          <div className="bg-gradient-to-br from-rose-900 to-rose-950 lg:h-36 lg:w-[138px] rounded-3xl xl:pt-3 pt-2 h-[80px] w-full flex justify-center">
+            <img className="lg:h-36 h-20 " src={memoji} alt="" />
+          </div>
         </div>
-      </div>
-      <div className="flex justify-center mt-5 text-2xl font-medium">
-        Adarsh Kamble
-      </div>
-      <div className="bg-rose-1050 mx-18 flex justify-center mt-4 rounded-lg text-xs py-1.5">
-        Web developer
+        <div className="flex justify-center items-center">
+          <div>
+            <div className="lg:flex lg:justify-center lg:mt-5 lg:text-2xl font-medium  ">
+              Adarsh Kamble
+            </div>
+            <div className="bg-rose-1050 lg:mx-18 flex justify-center mt-4 rounded-lg text-xs py-1.5 lg:px-4  whitespace-nowrap">
+              Web developer
+            </div>
+          </div>
+        </div>
       </div>
       <div className="bg-stone-1000 h-0.5 rounded-full mx-7 mt-8"></div>
       <div>
@@ -43,7 +49,7 @@ export function Ldiv() {
             target="_blank"
           >
             <svg
-              enable-background="new 0 0 56.693 56.693"
+              enableBackground="new 0 0 56.693 56.693"
               height="56.693px"
               id="Layer_1"
               version="1.1"
@@ -71,7 +77,7 @@ export function Ldiv() {
               fill="none"
               className="h-[16px] w-[16px] stroke-[#9f9f9f]  text-[#9f9f9f] fill-current  cursor-pointer hover:text-[#cecece]"
             >
-              <g clip-path="url(#clip0_1_2)">
+              <g clipPath="url(#clip0_1_2)">
                 <path
                   d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
                   fill="[#9f9f9f]"
@@ -95,7 +101,7 @@ export function Ldiv() {
               x="0px"
               y="0px"
               viewBox="0 0 56.7 56.7"
-              enable-background="new 0 0 56.7 56.7"
+              enableBackground="new 0 0 56.7 56.7"
               xmlSpace="preserve"
               className="h-[18px] w-[18px] stroke-[#9f9f9f]  text-[#9f9f9f] fill-current  cursor-pointer hover:text-[#cecece]"
             >

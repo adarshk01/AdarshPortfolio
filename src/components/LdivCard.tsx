@@ -14,9 +14,11 @@ export const LdivCard: React.FC<LcardProps> = ({ title, desc, svg }) => {
             {fname}
           </div>
         </div>
-        <div className="mt-9 ml-3">
+        <div className="mt-9 ml-3 ">
           <div className="text-xs text-neutral-400 font-light ">{title}</div>
-          <div className="font-light text-sm mt-0.5 truncate ">{desc}</div>
+          <div className="font-light text-sm mt-0.5 truncate w-[170px]">
+            {desc}
+          </div>
         </div>
       </div>
     </div>
