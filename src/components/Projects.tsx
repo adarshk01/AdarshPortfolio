@@ -5,6 +5,7 @@ export function Projects() {
       <div className="pl-8" style={{ marginTop: -15 }}>
         <div className="h-1.5 w-10 bg-gradient-to-r from-amber-300 to-orange-300 rounded-lg "></div>
       </div>
+      <div className="mt-10">Soon to be added...</div>
     </div>
   );
 }
